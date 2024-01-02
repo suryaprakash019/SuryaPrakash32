@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #141414;
+      color: #ffffff;
+    }
+
+    /* Your styles for the Netflix homepage replica */
+    /* Add styles for header, navigation, content, etc. */
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Your header content -->
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <!-- Your navigation content -->
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Your main content, including rows of movies/shows -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Your footer content -->
+  </footer>
+</body>
+</html>
