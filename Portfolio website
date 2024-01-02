@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya Prakash's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    section {
+      margin: 20px 0;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Additional styling for the skills section */
+    .skills {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Add any other styles you need */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Surya Prakash's Portfolio</h1>
+    <p>Second Year Engineering Student at GIET University, Gunupur</p>
+  </header>
+
+  <section>
+    <h2>Contact Details</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <label><input type="radio" name="skills" value="web-development"> Web Development</label>
+    <label><input type="radio" name="skills" value="programming"> Programming</label>
+    <!-- Add more skills as needed -->
+  </section>
+</body>
+</html>
